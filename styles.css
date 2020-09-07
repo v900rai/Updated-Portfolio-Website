@@ -1,0 +1,445 @@
+/* ---------------------------------------NAV BAR----------------------------------------------------- */
+.background {
+  background-image: url("https://lmpixels.com/wp/leven-wp/wp-content/uploads/2019/12/main_bg_14.png");
+  background-color: #007ced;
+}
+
+.buttondiv{
+  
+  margin: 1.4rem;
+}
+
+
+
+.overlay {
+  margin: 0 40px 0 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.navbar-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+ul {
+  font-family: "Montserrat", sans-serif;
+  margin-right: 40px;
+}
+
+.navbar-item:hover {
+  background-color: #c70039;
+  transition: 0.6s;
+  transform: scale(1.1);
+}
+
+.contactlast {
+  background-color: #fc7e2f;
+}
+
+.brand {
+font-family: "Poppins", Helvetica, sans-serif;
+  color: #0779e4;
+  text-shadow: 1px 1px 1px #000,
+    3px 3px 5px #0779e4;
+    border-radius: 100%;
+    font-size: 3rem;
+
+}
+
+.brand:hover
+{
+  background-color: #fc7e2f;
+
+        transition: 0.6s;
+        
+
+}
+
+/* ---------------------------------------- Below NAV BAR (SECTION=Title)------------------------------------------------------- */
+#title {
+  background-color: #fff;
+  /* ff4c68 */
+  padding-bottom: 105px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.myImage {
+  border-radius: 50%;
+  border: 15px solid #fff;
+  height: 300px;
+  width: 300px;
+  margin-top: 140px;
+  margin-left: 2px;
+  box-shadow: 0 4px 25px 5px #00000065;
+  overflow: hidden;
+  transition-duration: 0.8s;
+  transition-property: transform;
+  align-items: center;
+}
+
+.myImage:hover {
+  transform: rotate(360deg);
+  box-shadow: inset 0 0 0 25px #fff;
+}
+
+.leftText {
+  margin-top: 197px;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .leftText {
+    text-align: center;
+  }
+
+  .overlay {
+    margin: 0 0 0 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #title {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+
+/* @media (max-width: 576px ){
+.introDiv {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 90%;
+}
+} */
+
+.progbar{
+  background-color: #fff;
+  padding-bottom: 150px;
+
+}
+.progbar h2{
+  text-align: center;
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  
+  color: #333;
+  
+}
+
+
+.nameh1 {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #333;
+}
+
+.webdevelopmenth4 {
+  color: #aaa;
+}
+
+.btn {
+  margin-top: 35px;
+  border-color: #007ced;
+  /* border-radius: 30px; */
+}
+
+.btn:hover {
+  background-color: #0779e4;
+
+
+}
+
+/* ------------------------------------- Below Title Section (secondSection)-------------------------------------- */
+@media (max-width: 824px ){
+.introDiv {
+    max-width: 90%;
+
+}
+
+}
+
+#secondSection {
+  text-align: center;
+  background-color: #fff;
+  padding-bottom: 200px;
+  padding-top: 100px;
+}
+
+.introDiv {
+  border-radius: 10px;
+  border: 2px solid #fff;
+  box-shadow: 0 10px 15px 7px #00000015;
+  height: 290px;
+  margin: 1.7rem;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.introDiv:hover{
+  transition: 0.2s;
+  transform: scale(1.028);
+
+}
+
+.whatToDo {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 2.5rem;
+  line-height: 3;
+  font-weight: 500;
+}
+                                      /* Icons for what to do div */
+.imageweb{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+ margin-top: 13px;
+
+}
+
+.imagecp{
+  height: 50px;
+  width: 50px;
+  text-align: center;
+ margin-top: 13px;
+}
+
+.imageandroid{
+  height: 50px;
+  width: 50px;
+  text-align: center;
+ margin-top: 13px;
+}
+                                      /* Icons for what to do div */
+
+.section2h4{
+  font-size: 1.6rem;
+  text-align: center;
+  padding-top: 23px;
+
+}
+
+.section2p{
+  padding-top: 15px;
+  font-size: 1rem;
+  color: #222831;
+  line-height: 1.8;
+}
+
+                                                /* Section 3 - ProgressBar */
+
+/* TODO:  */
+
+                                            /* Section 4 - Website templtaes */
+
+
+ #RecentWork{
+  background-color: #fff;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+
+
+@media(max-width: 820px )  {
+
+.whatToDo{
+  font-size: 2rem;
+}
+
+.website{
+  font-size: 1.5rem;
+}
+
+}
+
+.carouseldiv{
+  padding: 100px 0 100px;
+}
+
+
+
+.website{
+  position: relative;
+  top: 50px;
+  font-family: "Poppins", Helvetica, sans-serif;
+
+}
+
+
+                                                  /* Footer Section*/
+
+#footer{
+  background-color: #fff;
+  padding-bottom: 10px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+@media (max-width: 700px)  {
+  #footer{
+     border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+.nextprev {
+  visibility: hidden;
+}
+}
+
+.footericons{
+  text-align: center;
+
+}
+
+.footericons ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 2%;
+}
+
+.footericons ul li:hover{
+  background-color: #fff;
+  transition: 0.5s;
+  transform: translate(0, -10px);
+
+}
+
+.carousel-indicators .active{
+
+    background-color: #f00;
+}
+
+.carousel-indicators li{
+  background-color: #007ced;
+}
+
+
+/////
+
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f1f9f9;
+  font-family: 'Roboto', sans-serif;
+} */
+/* #progressbarsec{
+  background-color: #fff;
+} */
+.container {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  padding: 50px 30px;
+  box-shadow: 0 10px 20px -8px #c5d6d6;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.container h2 {
+  margin-bottom: 30px;
+}
+
+.container .skill {
+  margin-bottom: 35px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.container .skill::before {
+  content: "";
+  width: 100%;
+  height: 10px;
+  display: block;
+  position: absolute;
+  background-color: #959595;
+  bottom: 0;
+  border-radius: 10px;
+}
+
+.container .skill .skill-bar:hover::before {
+  height: 100%;
+}
+
+.container .skill p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1716;
+  margin: 0;
+}
+
+.container .skill .skill-bar {
+  width: 100%;
+  height: 10px;
+  display: block;
+  position: relative;
+  border-radius: 10px;
+  animation: animated 1s both;
+}
+
+.container .skill .skill-bar.skill1 {
+  background-image: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%);
+  width: 70%;
+}
+
+.container .skill .skill-bar.skill2 {
+  background-image: linear-gradient(109.6deg, rgba(253, 199, 141, 1) 11.3%, rgba(249, 143, 253, 1) 100.2%);
+  width: 50%;
+}
+
+.container .skill .skill-bar.skill3 {
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(253, 193, 104, 1) 0%, rgba(251, 128, 128, 1) 90%);
+  width: 60%;
+}
+
+.container .skill .skill-bar.skill4 {
+  background-image: linear-gradient(109.6deg, rgba(218, 185, 252, 1) 11.2%, rgba(125, 89, 252, 1) 91.1%);
+  width: 90%;
+}
+
+.container .skill .skill-bar.skill5 {
+  background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+  width: 85%;
+}
+
+.container .skill .skill-bar span {
+  position: absolute;
+  border-top: 5px solid #f4392f;
+  top: -30px;
+  padding: 3px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.container .skill .skill-bar.skill1 span.skill-count,
+.container .skill .skill-bar.skill2 span.skill-count,
+.container .skill .skill-bar.skill3 span.skill-count,
+.container .skill .skill-bar.skill4 span.skill-count,
+.container .skill .skill-bar.skill5 span.skill-count {
+  right: 0;
+}
+
+@keyframes animated {
+  from {
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+  }
+
+  to {
+      transform: matrix3d(0, 0, 0);
+  }
+}
